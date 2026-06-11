@@ -1,0 +1,242 @@
+[
+  {
+    "texte": "sudo apt update\n\nMettre à jour la liste des paquets disponibles.",
+    "tag": "sudo"
+  },
+  {
+    "texte": "sudo apt upgrade\n\nMettre à jour tous les paquets installés vers la dernière version.",
+    "tag": "sudo"
+  },
+  {
+    "texte": "sudo apt install <paquet>\n\nInstaller un nouveau logiciel ou paquet.",
+    "tag": "sudo"
+  },
+  {
+    "texte": "sudo apt remove <paquet>\n\nSupprimer un paquet installé (conserve la configuration).",
+    "tag": "sudo"
+  },
+  {
+    "texte": "sudo apt purge <paquet>\n\nSupprimer complètement un paquet et ses fichiers de configuration.",
+    "tag": "sudo"
+  },
+  {
+    "texte": "sudo apt autoremove\n\nSupprimer les dépendances inutilisées et obsolètes.",
+    "tag": "sudo"
+  },
+  {
+    "texte": "sudo systemctl start <service>\n\nDémarrer un service système (ex: apache2, docker).",
+    "tag": "sudo"
+  },
+  {
+    "texte": "sudo systemctl status <service>\n\nVérifier l'état d'un service.",
+    "tag": "sudo"
+  },
+  {
+    "texte": "sudo reboot\n\nRedémarrer immédiatement la machine.",
+    "tag": "sudo"
+  },
+  {
+    "texte": "sudo chown -R utilisateur:groupe /dossier\n\nChanger récursivement le propriétaire d'un dossier.",
+    "tag": "sudo"
+  },
+  {
+    "texte": "pip install <paquet>\n\nInstaller une bibliothèque Python depuis PyPI.",
+    "tag": "pip"
+  },
+  {
+    "texte": "pip install -r requirements.txt\n\nInstaller toutes les dépendances listées dans un fichier text.",
+    "tag": "pip"
+  },
+  {
+    "texte": "pip uninstall <paquet>\n\nDésinstaller une bibliothèque Python.",
+    "tag": "pip"
+  },
+  {
+    "texte": "pip list\n\nLister toutes les bibliothèques Python installées.",
+    "tag": "pip"
+  },
+  {
+    "texte": "pip show <paquet>\n\nAfficher les détails d'une bibliothèque spécifique (version, auteur...).",
+    "tag": "pip"
+  },
+  {
+    "texte": "pip install --upgrade <paquet>\n\nMettre à jour une bibliothèque vers la dernière version.",
+    "tag": "pip"
+  },
+  {
+    "texte": "pip freeze > requirements.txt\n\nExporter la liste des paquets installés et leurs versions.",
+    "tag": "pip"
+  },
+  {
+    "texte": "pip check\n\nVérifier si les paquets installés ont des dépendances incompatibles.",
+    "tag": "pip"
+  },
+  {
+    "texte": "pip search <terme>\n\nRechercher des paquets sur PyPI (selon la version de pip).",
+    "tag": "pip"
+  },
+  {
+    "texte": "pip cache purge\n\nNettoyer le cache des fichiers téléchargés par pip.",
+    "tag": "pip"
+  },
+  {
+    "texte": "ls\n\nLister les fichiers et dossiers du répertoire courant.",
+    "tag": "ls"
+  },
+  {
+    "texte": "ls -la\n\nLister tous les fichiers, y compris les cachés, avec les détails (droits, taille).",
+    "tag": "ls"
+  },
+  {
+    "texte": "cd <dossier>\n\nChanger de répertoire pour aller dans le dossier spécifié.",
+    "tag": "cd"
+  },
+  {
+    "texte": "cd ..\n\nRemonter d'un niveau dans l'arborescence des dossiers (dossier parent).",
+    "tag": "cd"
+  },
+  {
+    "texte": "pwd\n\nAfficher le chemin complet du répertoire de travail actuel.",
+    "tag": "pwd"
+  },
+  {
+    "texte": "mkdir <nom_dossier>\n\nCréer un nouveau dossier.",
+    "tag": "mkdir"
+  },
+  {
+    "texte": "rm <fichier>\n\nSupprimer un fichier.",
+    "tag": "rm"
+  },
+  {
+    "texte": "rm -rf <dossier>\n\nSupprimer un dossier et tout son contenu de manière récursive et forcée.",
+    "tag": "rm"
+  },
+  {
+    "texte": "cp <source> <destination>\n\nCopier un fichier vers un autre emplacement.",
+    "tag": "cp"
+  },
+  {
+    "texte": "mv <source> <destination>\n\nDéplacer ou renommer un fichier ou un dossier.",
+    "tag": "mv"
+  },
+  {
+    "texte": "touch <fichier>\n\nCréer un fichier vide ou mettre à jour sa date de modification.",
+    "tag": "touch"
+  },
+  {
+    "texte": "cat <fichier>\n\nAfficher tout le contenu d'un fichier directement dans le terminal.",
+    "tag": "cat"
+  },
+  {
+    "texte": "head -n 10 <fichier>\n\nAfficher les 10 premières lignes d'un fichier.",
+    "tag": "head"
+  },
+  {
+    "texte": "tail -n 10 <fichier>\n\nAfficher les 10 dernières lignes d'un fichier (utile pour les logs).",
+    "tag": "tail"
+  },
+  {
+    "texte": "grep <texte> <fichier>\n\nRechercher un mot ou une chaîne de caractères spécifique dans un fichier.",
+    "tag": "grep"
+  },
+  {
+    "texte": "chmod +x <fichier>\n\nRendre un fichier ou un script exécutable.",
+    "tag": "chmod"
+  },
+  {
+    "texte": "clear\n\nEffacer l'écran du terminal pour y voir plus clair.",
+    "tag": "clear"
+  },
+  {
+    "texte": "history\n\nAfficher la liste des dernières commandes tapées dans le terminal.",
+    "tag": "history"
+  },
+  {
+    "texte": "df -h\n\nAfficher l'espace disque disponible sur les différents composants du système.",
+    "tag": "df"
+  },
+  {
+    "texte": "free -h\n\nAfficher la quantité de mémoire RAM utilisée et disponible.",
+    "tag": "free"
+  },
+  {
+    "texte": "git init\n\nInitialiser un nouveau dépôt Git local dans le dossier courant.",
+    "tag": "git"
+  },
+  {
+    "texte": "git clone <url>\n\nTélécharger et copier un dépôt distant existant sur votre machine.",
+    "tag": "git"
+  },
+  {
+    "texte": "git status\n\nAfficher l'état actuel du dépôt (fichiers modifiés, non suivis ou prêts à être commités).",
+    "tag": "git"
+  },
+  {
+    "texte": "git add <fichier>\n\nAjouter un fichier spécifique à la zone de staging (le préparer pour le commit).",
+    "tag": "git"
+  },
+  {
+    "texte": "git add .\n\nAjouter tous les fichiers modifiés et nouveaux du dossier actuel à la zone de staging.",
+    "tag": "git"
+  },
+  {
+    "texte": "git commit -m \"<message>\"\n\nEnregistrer les modifications de la zone de staging dans l'historique avec un message explicatif.",
+    "tag": "git"
+  },
+  {
+    "texte": "git branch\n\nLister toutes les branches locales du projet (la branche actuelle est précédée d'une étoile).",
+    "tag": "git"
+  },
+  {
+    "texte": "git branch <nom_branche>\n\nCréer une nouvelle branche avec le nom spécifié.",
+    "tag": "git"
+  },
+  {
+    "texte": "git checkout <nom_branche>\n\nBasculer vers la branche spécifiée pour y travailler.",
+    "tag": "git"
+  },
+  {
+    "texte": "git switch -c <nom_branche>\n\nCréer une nouvelle branche et basculer dessus immédiatement (alternative moderne à checkout -b).",
+    "tag": "git"
+  },
+  {
+    "texte": "git merge <nom_branche>\n\nFusionner les modifications de la branche spécifiée dans la branche actuelle.",
+    "tag": "git"
+  },
+  {
+    "texte": "git push origin <nom_branche>\n\nEnvoyer vos commits locaux vers le dépôt distant (ex: GitHub, GitLab) sur la branche spécifiée.",
+    "tag": "git"
+  },
+  {
+    "texte": "git pull\n\nRécupérer et fusionner les dernières modifications du dépôt distant vers votre branche locale actuelle.",
+    "tag": "git"
+  },
+  {
+    "texte": "git fetch\n\nRécupérer les informations du dépôt distant sans modifier vos fichiers locaux (historique uniquement).",
+    "tag": "git"
+  },
+  {
+    "texte": "git log\n\nAfficher l'historique chronologique de tous les commits effectués sur la branche.",
+    "tag": "git"
+  },
+  {
+    "texte": "git diff\n\nMontrer les changements précis non enregistrés entre vos fichiers actuels et le dernier commit.",
+    "tag": "git"
+  },
+  {
+    "texte": "git stash\n\nSauvegarder temporairement les modifications non commitées pour nettoyer le répertoire (sans les perdre).",
+    "tag": "git"
+  },
+  {
+    "texte": "git stash pop\n\nRestaure les dernières modifications mises de côté avec git stash.",
+    "tag": "git"
+  },
+  {
+    "texte": "git remote -v\n\nLister les liens (URL) vers les dépôts distants associés à votre projet.",
+    "tag": "git"
+  },
+  {
+    "texte": "git reset --hard HEAD\n\nAnnuler absolument toutes les modifications locales non commitées et revenir au dernier commit propre.",
+    "tag": "git"
+  }
+]

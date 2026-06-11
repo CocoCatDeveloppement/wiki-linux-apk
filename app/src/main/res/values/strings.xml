@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Wiki linux</string>
+    <string name="choisir_la_commande">Choisir la commande</string>
+    <string name="cmd">cmd</string>
+    <string name="pr_c_dant">Précédant</string>
+    <string name="suivant">Suivant</string>
+</resources>
